@@ -73,6 +73,15 @@ main{
     margin-bottom: 100px;
 }
 
+
+#about {
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+
 #abt {
     
     width: 300px;
@@ -81,7 +90,7 @@ main{
     overflow: auto;
 }
 
-#first-title {
+#first-project {
     color: white;
     font-size: 40px;
     -webkit-text-stroke-width: 2px;
@@ -134,7 +143,7 @@ main{
 .card {
     display: block;
     flex: 1 1 300px;
-    border: 2px dashed;
+    border: 2px hidden;
     padding: 0 15px 15px;
     margin: 0 20px 40px;
     max-width: 600;
@@ -162,6 +171,9 @@ main{
     text-align: center;
 }
 
+.ft {
+    text-align: center;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -297,7 +309,7 @@ main{
    .card {
     display: block;
     flex: 1 1 360px;
-    border: 2px dashed;
+    border: 2px hidden;
     padding: 0 60px 33px;
     margin: 0 20px 40px;
     max-width: 600px;
@@ -336,7 +348,7 @@ main{
 
 
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     
         * {  flex-direction: column;
             /*font-size: 14px;*/
@@ -403,7 +415,97 @@ main{
        .card {
         display: block;
         flex: 1 1 300px;
-        border: 2px dashed;
+        border: 2px hidden;
+        padding: 0 15px 15px;
+        margin: 0 20px 40px;
+        max-width: 300px;
+        max-height: 300px;
+        height: auto;
+        width: auto;
+        position: relative;
+      
+    }
+    
+    .cards{
+    
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+        
+    } 
+
+    @media only screen and (max-width: 5000px) {
+    
+        * {  flex-direction: column;
+            /*font-size: 14px;*/
+        }
+       
+        .derek {
+            float: left;
+            max-width: 450px;
+            max-height:490px;
+            border-style: solid;
+            border-color: rgb(255, 108, 235);
+        }
+
+        .feature-project {
+            flex-shrink: inherit;
+            width: 665;
+            height: 600px;
+            object-fit:contain;
+            overflow: hidden;
+       }
+       
+       .project1 {
+           display: block;
+           flex: 1 1 390px;
+           border: 2px dashed;
+           padding: 0 15px 15px;
+           margin: 0 20px 40px;
+           max-width: 400px;
+           height: auto;
+           width: auto;
+           position:inherit;
+       }
+        .project2 {
+            flex-shrink: inherit;
+            width: 250px;
+            height: 250px;
+            object-fit:contain;
+            overflow: hidden;
+    }
+    
+        .project3 {
+        flex-shrink: inherit;
+        width: 250px;
+        height: 250px;
+        object-fit:contain;
+        overflow: hidden;
+    }
+    
+        .project4 {
+        flex-shrink: inherit;
+        width: 250px;
+        height: 250px;
+        object-fit:contain;
+        overflow: hidden;
+    }
+    
+        .project5 {
+        flex-shrink: inherit;
+        width: 250px;
+        height: 250px;
+        object-fit:contain;
+        overflow: hidden;
+    }
+       .card {
+        display: block;
+        flex: 1 1 300px;
+        border: 2px hidden;
         padding: 0 15px 15px;
         margin: 0 20px 40px;
         max-width: 300px;
