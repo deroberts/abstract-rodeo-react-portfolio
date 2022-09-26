@@ -3,16 +3,427 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
+                 
 }
 
-.hero {
-    background-color:seagreen;
+main{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /*background-image: url("C:/users/derek/playground/dereks-portfolio/assets/photos/rosedale-du.jpg");*/
+    background: repeating-linear-gradient(#64d7e6, #e98ae4);
 }
 
-header {
-    border-radius: 4px;
+.header {
+    border-radius: 0px;
     font-size: 16px;
-    padding: 15px;
-    margin: 5px;
-    border-color: seagreen;
+    padding: 0 15px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
 }
+
+.nav-links {
+    background-color: grey;
+    float: right;
+}
+
+
+#home{
+    color: white;
+    font-size: 60px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.header .h1 {
+    text-align: center;
+}
+
+
+.header .p {
+    text-align: center;    
+}
+
+.derek {
+    float:left;
+    max-width: 200px;
+    max-height: 200px;
+    border-style: solid;
+    border-color:rgb(255, 108, 235);
+    
+}   
+
+#statement{
+    margin-bottom: 100px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:black;
+    }
+
+.nav-links {
+    border: 2px dashed;
+}
+
+.me {
+    margin-bottom: 100px;
+}
+
+#abt {
+    
+    width: 300px;
+    height: 123px;
+    border: none;
+    overflow: auto;
+}
+
+#first-title {
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
+}
+
+#work {
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+
+.cards{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.project1 {
+    display: block;
+    flex: 1 1 390px;
+    border: 2px dashed;
+    padding: 0 15px 15px;
+    margin: 0 20px 40px;
+    max-width: 400px;
+    height: auto;
+    width: auto;
+    position:inherit;
+    
+} 
+
+.feature-project {
+    display:block;
+    width: 100%;
+    height: 100%;
+    flex: 1 1 390;
+    object-fit: cover;
+    overflow: hidden;
+    margin-left: 20px;
+    position: inherit;
+}
+
+
+.card {
+    display: block;
+    flex: 1 1 300px;
+    border: 2px dashed;
+    padding: 0 15px 15px;
+    margin: 0 20px 40px;
+    max-width: 600;
+    min-width: 250px;
+    max-height: 600px;
+    height: auto;
+    width: auto;
+    position: relative;
+  
+}
+
+
+.wrapper {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+   /* opacity: .9; */
+    padding: 30px;
+    background-image:url("C:/users/derek/playground/dereks-portfolio/assets/photos/pink-black.png");
+    background-repeat: repeat;
+}
+
+
+.class {
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   * {  flex-direction: column;
+     
+    }
+   
+    .feature-project {
+        flex-shrink: inherit;
+        width: 420px;
+        height: 440px;
+        object-fit:contain;
+        overflow: hidden;
+   }
+
+    .project2 {
+        flex-shrink: inherit;
+        width: 250px;
+        height: 250px;
+        object-fit:contain;
+        overflow: hidden;
+}
+
+    .project3 {
+    flex-shrink: inherit;
+    width: 250px;
+    height: 250px;
+    object-fit:contain;
+    overflow: hidden;
+}
+
+    .project4 {
+    flex-shrink: inherit;
+    width: 250px;
+    height: 250px;
+    object-fit:contain;
+    overflow: hidden;
+}
+
+    .project5 {
+    flex-shrink: inherit;
+    width: 250px;
+    height: 250px;
+    object-fit:contain;
+    overflow: hidden;
+}
+   .card {
+    display: block;
+    flex: 1 1 300px;
+    border: 2px dashed;
+    padding: 0 15px 15px;
+    margin: 0 20px 40px;
+    max-width: 300px;
+    max-height: 300px;
+    height: auto;
+    width: auto;
+    position: relative;
+  
+}
+
+.cards{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.project1 {
+    display: block;
+    flex: 1 1 390px;
+    border: 2px dashed;
+    padding: 0 15px 15px;
+    margin: 0 20px 40px;
+    max-width: 400px;
+    height: auto;
+    width: auto;
+    position:inherit;
+    
+} 
+
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    
+    * {  flex-direction: column;
+        /*font-size: 14px;*/
+    }
+   
+    .feature-project {
+        flex-shrink: inherit;
+        flex-grow: inherit;
+        width: 665;
+        height: 600px;
+        object-fit:contain;
+        overflow: hidden;
+   }
+
+    .project2 {
+        flex-shrink: inherit;
+        width: 250px;
+        height: 250px;
+        object-fit:contain;
+        overflow: hidden;
+}
+
+    .project3 {
+    flex-shrink: inherit;
+    width: 250px;
+    height: 250px;
+    object-fit:contain;
+    overflow: hidden;
+}
+
+    .project4 {
+    flex-shrink: inherit;
+    width: 250px;
+    height: 250px;
+    object-fit:contain;
+    overflow: hidden;
+}
+
+    .project5 {
+    flex-shrink: inherit;
+    width: 250px;
+    height: 250px;
+    object-fit:contain;
+    overflow: hidden;
+}
+   .card {
+    display: block;
+    flex: 1 1 360px;
+    border: 2px dashed;
+    padding: 0 60px 33px;
+    margin: 0 20px 40px;
+    max-width: 600px;
+    max-height: 700px;
+    height: auto;
+    width: auto;
+    position: relative;
+  
+}
+
+.cards{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.project1 {
+    display: block;
+    flex: 1 1 390px;
+    border: 2px dashed;
+    padding: 0 15px 15px;
+    margin: 0 20px 40px;
+    max-width: 400px;
+    height: auto;
+    width: auto;
+    position:inherit;
+    
+} 
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+    
+        * {  flex-direction: column;
+            /*font-size: 14px;*/
+        }
+       
+        .derek {
+            float: left;
+            max-width: 450px;
+            max-height:490px;
+            border-style: solid;
+            border-color: rgb(255, 108, 235);
+        }
+
+        .feature-project {
+            flex-shrink: inherit;
+            width: 665;
+            height: 600px;
+            object-fit:contain;
+            overflow: hidden;
+       }
+       
+       .project1 {
+           display: block;
+           flex: 1 1 390px;
+           border: 2px dashed;
+           padding: 0 15px 15px;
+           margin: 0 20px 40px;
+           max-width: 400px;
+           height: auto;
+           width: auto;
+           position:inherit;
+       }
+        .project2 {
+            flex-shrink: inherit;
+            width: 250px;
+            height: 250px;
+            object-fit:contain;
+            overflow: hidden;
+    }
+    
+        .project3 {
+        flex-shrink: inherit;
+        width: 250px;
+        height: 250px;
+        object-fit:contain;
+        overflow: hidden;
+    }
+    
+        .project4 {
+        flex-shrink: inherit;
+        width: 250px;
+        height: 250px;
+        object-fit:contain;
+        overflow: hidden;
+    }
+    
+        .project5 {
+        flex-shrink: inherit;
+        width: 250px;
+        height: 250px;
+        object-fit:contain;
+        overflow: hidden;
+    }
+       .card {
+        display: block;
+        flex: 1 1 300px;
+        border: 2px dashed;
+        padding: 0 15px 15px;
+        margin: 0 20px 40px;
+        max-width: 300px;
+        max-height: 300px;
+        height: auto;
+        width: auto;
+        position: relative;
+      
+    }
+    
+    .cards{
+    
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+        
+    } 
+    
+
