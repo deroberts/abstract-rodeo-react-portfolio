@@ -3,8 +3,8 @@
 ## Description
 
 The purpose of this project is to set the foundation for my professional portfolio.
-Obviously, having very little prior knowledge of html, and css this project is a 
-work in progress.
+Without having prior knowledge of html, and css; this project is a definite 
+work in progress for me.
 
 "Features":
 -Added my name, a photo of me, links to sections, an about me, a section for future projects, and contact information.
@@ -19,3 +19,6 @@ work in progress.
 ![Screenshot-2-600x16](https://user-images.githubusercontent.com/112577325/192398828-2d5aac2b-bbc7-4faf-a53f-2f72155bfc98.png)
 ![Screenshot 1200x11](https://user-images.githubusercontent.com/112577325/192398846-2a4d3fcd-a676-4ec2-886a-fae2746a1689.png)
 ![Screenshot-2-1200](https://user-images.githubusercontent.com/112577325/192398837-60ebbecf-d807-4511-a363-1f78ffa08e76.png)
+
+## Link
+file:///C:/Users/Derek/playground/dereks-portfolio/index.html
