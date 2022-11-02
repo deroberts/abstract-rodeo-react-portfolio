@@ -439,7 +439,7 @@ main{
         
     } 
 
-    @media only screen and (max-width: 5000px) {
+    @media only screen and (max-width: 3000px) {
     
         * {  flex-direction: column;
             /*font-size: 14px;*/
