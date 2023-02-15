@@ -1,7 +1,7 @@
 # Derek Roberts Portfolio
 
 ## Description
-
+I need to update this readme.
 The purpose of this project is to set the foundation for my professional portfolio.
 Without having prior knowledge of html, and css; this project is a definite 
 work in progress for me.
@@ -21,4 +21,4 @@ work in progress for me.
 ![Screenshot-2-1200](https://user-images.githubusercontent.com/112577325/192398837-60ebbecf-d807-4511-a363-1f78ffa08e76.png)
 
 ## Link
-file:///C:/Users/Derek/playground/dereks-portfolio/index.html
+
