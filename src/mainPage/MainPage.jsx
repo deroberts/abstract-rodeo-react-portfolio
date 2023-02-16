@@ -30,36 +30,21 @@ const MainPage = () => {
               <h1>Welcome to my portfolio!</h1>
               </> */}
             </Route>
-                      
-                      
-                      
-                  <Route path="/about-me">
-                      <Route>
-                        <AboutMe />
-                      </Route>
-                    </Route>
-                    <Route path="/contact">
-                      <Route>
-                        <Contact />
-                      </Route>
-                    </Route>
-                    <Route path="/portfolio">
-                      <Route>
-                        <Portfolio />
-                      </Route>
-                    </Route>
-                    <Route path="/resume">
-                      <Route>
-                        <Resume />
-                      </Route>
-                    </Route>
 
 
+            <Route path="/about-me"
+              element={<AboutMe />} />
 
 
-
-
-
+            <Route path="/contact" 
+              element = {<Contact />}/>
+              
+            <Route path="/portfolio"
+              element = {<Portfolio />}/>
+              
+                
+            <Route path="/resume"
+              element = {<Resume/>}/>
 
           </Routes>
         </main>
